@@ -1,3 +1,6 @@
+#copy a directory or a file to other location and display copied amount
+#one thread copies file by file, other thread measures file size in parallel to the first thread and it displays each second
+
 import os, time, shutil, sys, random, threading
 
 #nu scrie "/" la final!
